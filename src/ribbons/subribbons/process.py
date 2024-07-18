@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 src = pathlib.Path(__file__).parent
-prod_src = src.parent.parent.parent / "prod" / "ribbons" / "subribbons"
+prod_src = src.parent.parent.parent / "prod" / "gui" / "ribbons" / "subribbons"
 
 
 def process_51x51():
